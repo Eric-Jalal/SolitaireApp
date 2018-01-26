@@ -5,5 +5,4 @@ class GameModel {
             , FoundationPile("Diamonds")
             , FoundationPile("Hearts")
             , FoundationPile("Spades"))
-
 }
