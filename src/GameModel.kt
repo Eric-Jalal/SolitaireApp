@@ -5,4 +5,5 @@ class GameModel {
             , FoundationPile("Diamonds")
             , FoundationPile("Hearts")
             , FoundationPile("Spades"))
+    val tableauPile = Array(7, { TableauPile()})
 }
