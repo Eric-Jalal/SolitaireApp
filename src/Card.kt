@@ -7,4 +7,5 @@ val blackSuits = arrayOf(clubs, spades)
 
 class Card(val value: Int, val suit: String, var faceUp: Boolean = false) {
 
+
 }
