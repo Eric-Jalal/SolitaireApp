@@ -6,4 +6,12 @@ class GameModel {
             , FoundationPile("Hearts")
             , FoundationPile("Spades"))
     val tableauPile = Array(7, { TableauPile()})
+
+    fun resetGame() {
+        wastePile.clear()
+        for (pile in foundationPiles){
+            pile.reset()
+            foundationPiles.forEach { it.reset() }
+        }
+    }
 }
